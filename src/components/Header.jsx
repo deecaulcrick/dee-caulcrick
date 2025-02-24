@@ -97,7 +97,6 @@ const Header = ({ setIsText, isText, isDark, setIsDark }) => {
     [0, 0.3],
     [headerHeight, 50]
   );
-  console.log(window.navigator.userAgent);
 
   return (
     <section className="px-4 h-fit w-full bg-green-400">
