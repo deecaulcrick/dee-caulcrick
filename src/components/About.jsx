@@ -16,7 +16,7 @@ const About = () => {
               <p>Twitter</p>
               <p>LinkedIn</p>
             </div>
-            <div>
+            <div className="mt-6">
               <img src="/images/hello.gif" />
             </div>
           </div>
