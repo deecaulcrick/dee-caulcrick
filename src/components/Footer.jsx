@@ -12,7 +12,7 @@ const Footer = () => {
       <div>
         <p className="leading-none ">
           <span className="text-zinc-600">By</span> <br />
-          Dee Caulcrick
+          DEE CAULCRICK
         </p>
       </div>
     </section>

@@ -213,6 +213,15 @@ const Header = ({ setIsText, isText, isDark, setIsDark }) => {
                         Projects
                       </Link>
                     </li>
+                    <li>
+                      <a
+                        href="https://blog.deecaulcrick.com"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                      >
+                        Blog
+                      </a>
+                    </li>
                   </ul>
                 </div>
                 <div className="hidden md:block">

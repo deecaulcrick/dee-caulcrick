@@ -1,7 +1,6 @@
 import Header from "@/components/Header";
 import "./globals.css";
 import Footer from "@/components/Footer";
-import Layout from "@/components/Layout";
 import SmoothScroll from "@/components/SmoothScroll";
 
 export const metadata = {
