@@ -3,6 +3,7 @@ import { useState } from "react";
 import { motion, AnimatePresence } from "motion/react";
 import DarkModeToggle from "./DarkModeToggle";
 import TextModeToggle from "./TextModeToggle";
+import Link from "./Link";
 
 const MobileMenu = ({ isText, setIsText }) => {
   const [isOpen, setIsOpen] = useState(false);
@@ -116,9 +117,24 @@ const MobileMenu = ({ isText, setIsText }) => {
                   exit="exit"
                 >
                   <h3 className="text-black dark:text-white mb-3">Contact</h3>
-                  <p className="mb-2">M deecaulcrick@gmail.com</p>
-
-                  <p>Twitter / LinkedIn / Github</p>
+                  <Link
+                    url="mailto:deecaulcrick@gmail.com"
+                    text="M deecaulcrick@gmail.com"
+                  />
+                  <div className="flex gap-2 mt-2">
+                    <Link
+                      url="https://linkedin.com/in/deborah-caulcrick"
+                      text="LinkedIn /"
+                    />
+                    <Link
+                      url="https://github.com/deecaulcrick"
+                      text="Github /"
+                    />
+                    <Link
+                      url="https://twitter.com/deecaulcrick"
+                      text="Twitter"
+                    />
+                  </div>
                 </motion.div>
               </motion.div>
             </motion.div>

@@ -1,3 +1,5 @@
+import Link from "./Link";
+
 const About = () => {
   return (
     <section className="mt-60 lg:mt-[300px] px-6 ">
@@ -11,10 +13,16 @@ const About = () => {
             </div>
             <div className=" leading-none">
               <h3 className="text-zinc-500">Contact</h3>
-              <p>M deecaulcrick@gmail.com</p>
-              <p>Github</p>
-              <p>Twitter</p>
-              <p>LinkedIn</p>
+              <Link
+                url="mailto:deecaulcrick@gmail.com"
+                text="M deecaulcrick@gmail.com"
+              />
+              <Link
+                url="https://linkedin.com/in/deborah-caulcrick"
+                text="LinkedIn"
+              />
+              <Link url="https://github.com/deecaulcrick" text="Github" />
+              <Link url="https://twitter.com/deecaulcrick" text="Twitter" />
             </div>
             <div className="mt-6">
               <img src="/images/hello.gif" />

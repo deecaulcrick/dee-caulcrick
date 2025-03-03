@@ -62,7 +62,7 @@ const Card = ({ name, type, id, image, color, link, isText, slug }) => {
           >
             <img
               src={`/images/projects/${image}`}
-              style={{ opacity: isText ? 0 : 1 }}
+              style={{ opacity: isText ? 0 : 1, width: "100%" }}
             />
           </div>
         </motion.div>
